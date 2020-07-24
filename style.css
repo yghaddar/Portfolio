@@ -1,0 +1,257 @@
+* {
+  box-sizing: border-box;
+  background-image: url("dark-grey-background-15282.png");
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+.first-name {
+  font-family: 'Parisienne', cursive;
+}
+
+.last-name {
+  font-family: 'Unica One', cursive;
+  color: rgb(39, 163, 245);
+}
+
+nav img {
+  width: 34px;
+  height: 34px;
+  
+}
+ul {
+  color: rgb(228, 228, 109);
+  margin: 0px;
+  margin-bottom: 30px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  color: whitesmoke;
+  font-family: 'Inconsolata', monospace;
+  justify-content: center;
+  align-items: baseline;
+
+}
+
+p {
+  font-family: 'Inconsolata', monospace;
+  text-align: center;
+  font-size: 18px;
+}
+
+h2 {
+  color: rgb(39, 163, 245);
+  text-transform: uppercase;
+  font-size: 30px;
+  text-align: center;
+}
+
+h2:hover {
+  color: yellow;
+}
+
+.hobbies {
+  color: white;
+  margin: 10px auto;
+  border: 2px solid grey;
+  border-radius: 50%;
+  width: 50%;
+  box-shadow: 3px 3px rgb(39, 163, 245), 8px 9px rgb(170, 170, 170);
+}
+
+.hobbies section {
+  text-align:center;
+  margin: 0% auto;
+  width: 50%;
+  height: 40%;
+  margin-bottom: 30px;
+
+}
+
+.about-me {
+  margin: 10px auto;
+  border: 2px solid grey;
+  border-radius: 50%;
+  width: 50%;
+  box-shadow: 3px 3px rgb(39, 163, 245), 8px 9px rgb(170, 170, 170);
+}
+
+.about-me div {
+  text-align:center;
+  margin: 0% auto;
+  font-style: oblique;
+}
+
+.about-me h4 {
+  color: rgb(39, 163, 245);
+}
+
+.hobbies {
+  margin: 0% auto;
+}
+
+main div {
+  width: 250px;
+}
+
+hr {
+  width:200px;
+  height: 2px;
+  color:#ffee10
+}
+
+.nav-bar {
+  text-align: center;
+}
+
+.intro {
+  margin: 10px auto;
+  border: 2px solid grey;
+  border-radius: 50%;
+  width: 50%;
+  box-shadow: 3px 3px rgb(39, 163, 245), 8px 9px rgb(170, 170, 170);
+}
+
+.intro section {
+  text-align:center;
+  margin: 0% auto;
+  width: 50%;
+  height: 40%
+}
+
+.into li {
+  justify-content: flex-start;
+  align-items:flex-start;
+  align-content: flex-start;
+}
+
+.hobbies {
+  margin: 10px auto;
+}
+
+.description {
+  margin: 20px;
+}
+
+.work:hover {
+  font-size: 15px;
+}
+
+.linkedin:hover {
+  color: yellow;
+  box-shadow:#ffee10;
+  text-shadow: #ffee10
+}
+
+footer {
+  background-color:#ffee10;
+  margin: 0px auto;
+  margin-top: 30px;
+}
+
+a {
+  color: white;
+  font-size: 30px;
+}
+
+a:hover {
+  color: yellow;
+  box-shadow:#ffee10;
+  text-shadow: #ffee10;
+  font-size: 38px;
+}
+
+.contact {
+  margin: 0% auto;
+}
+
+.contact:hover {
+  text-size: 20px;
+  color: rgb(39, 163, 245);
+}
+
+.portfolio-section {
+  text-align: center;
+  border: solid gray 2px;
+  margin: 10px auto;
+  padding-bottom: 10px;
+  border-radius: 30px;
+  width: 50%;
+  border-style: outset
+}
+
+.portfolio-section div {
+  margin: 0% auto;
+}
+
+.portfolio-section p {
+  font-size: 10px;
+  text-align: center;
+}
+
+.portfolio-section ul {
+  color: white;
+  text-align: left;
+  list-style-image: url()
+}
+
+.fa-code {
+  margin: 0px auto;
+  font-size: 30px;
+  text-align: center;
+}
+
+.fa-code:hover {
+  -ms-transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
+  transition: 0.70s;
+  font-size: 40px;
+  color: yellow;
+}
+
+
+.fa-chart-line {
+  margin: 0px auto;
+  font-size: 30px;
+  text-align: center;
+}
+
+.fa-chart-line:hover {
+  -ms-transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
+  transition: 0.70s;
+  font-size: 40px;
+  color: yellow;
+}
+
+.contact-button {
+color: #fff !important;
+margin-top: 20px;
+text-transform: uppercase;
+text-decoration: none;
+background: rgb(39, 163, 245);
+padding: 20px;
+border-radius: 5px;
+display: inline-block;
+border: none;
+transition: all 0.4s ease 0s;
+}
+
+.contact-button:hover {
+background: #434343;
+letter-spacing: 1px;
+-webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+-moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+transition: all 0.4s ease 0s;
+}
