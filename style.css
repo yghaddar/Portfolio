@@ -22,8 +22,8 @@ h1 {
 nav img {
   width: 34px;
   height: 34px;
-  
 }
+
 ul {
   color: rgb(228, 228, 109);
   margin: 0px;
@@ -86,12 +86,17 @@ h2:hover {
 
 .about-me div {
   text-align:center;
-  margin: 0% auto;
+  margin: 10px auto;
+  margin-bottom: 10%;
   font-style: oblique;
 }
 
 .about-me h4 {
   color: rgb(39, 163, 245);
+}
+
+.about-me div p {
+  margin-bottom: 15%;
 }
 
 .hobbies {
@@ -122,12 +127,25 @@ hr {
 
 .intro section {
   text-align:center;
-  margin: 0% auto;
+  margin: 10px auto;
+  margin-bottom: 20px;
   width: 50%;
   height: 40%
 }
 
-.into li {
+.intro p {
+  margin-bottom: 15%;
+}
+
+.intro h2 {
+  margin-top:40px;
+}
+
+.intro h3 {
+  color: rgb(39, 163, 245)
+}
+
+.intro li {
   justify-content: flex-start;
   align-items:flex-start;
   align-content: flex-start;
@@ -176,6 +194,9 @@ a:hover {
 .contact:hover {
   text-size: 20px;
   color: rgb(39, 163, 245);
+}
+.input-field {
+  color: white;
 }
 
 .portfolio-section {
@@ -254,8 +275,4 @@ letter-spacing: 1px;
 -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
 box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
 transition: all 0.4s ease 0s;
-}
-
-.input-field {
-  color: white;
 }
