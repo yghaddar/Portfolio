@@ -276,3 +276,15 @@ letter-spacing: 1px;
 box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
 transition: all 0.4s ease 0s;
 }
+
+@media all and (min-width: 800px) {
+  header {
+    display: flex;
+    justify-content: space-around;
+    
+  }
+  .nav-bar {
+    display: block;
+    align-items: flex-start;
+  }
+}
